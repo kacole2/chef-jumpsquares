@@ -125,7 +125,7 @@ Usage
 #### jumpsquares::default
 
 When using jumpsquares in your node's `run_list`, it will only do a basic install. You need to specify other cookbooks and recipes to create a working solution.
-Here is my current recipe run list that works:
+Here is my current recipe run list that works: <br>
 0. `apt` <br>
 1. `openssl` <br>
 2. `rvm::system` <br>
@@ -142,7 +142,7 @@ Contributing
 ------------
 I'm not a developer. This is probably very ugly. Feel free to make this not look like garbage! :)
 
-e.g.
+<br>
 1. Fork the repository on Github <br>
 2. Create a named feature branch (like `add_component_x`) <br>
 3. Write your change <br>
