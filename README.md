@@ -126,14 +126,14 @@ Usage
 
 When using jumpsquares in your node's `run_list`, it will only do a basic install. You need to specify other cookbooks and recipes to create a working solution.
 Here is my current recipe run list that works:
-0. `apt` 
-1. `openssl` 
-2. `rvm::system` 
-3. `postgresql::server` 
-4. `postgresql::libpq` 
-5. `postgresql::client` 
-6. `jumpsquares` 
-7. `thin_nginx` 
+0. `apt` <br>
+1. `openssl` <br>
+2. `rvm::system` <br>
+3. `postgresql::server` <br>
+4. `postgresql::libpq` <br>
+5. `postgresql::client` <br>
+6. `jumpsquares` <br>
+7. `thin_nginx` <br>
 
 #### jumpsquares::thin_nginx
 Just include `jumpsquares::default` in your node's `run_list`. However go to 'thin_nginx' and make sure the attributes match what is shown above.
@@ -143,12 +143,12 @@ Contributing
 I'm not a developer. This is probably very ugly. Feel free to make this not look like garbage! :)
 
 e.g.
-1. Fork the repository on Github
-2. Create a named feature branch (like `add_component_x`)
-3. Write your change
-4. Write tests for your change (if applicable)
-5. Run the tests, ensuring they all pass
-6. Submit a Pull Request using Github
+1. Fork the repository on Github <br>
+2. Create a named feature branch (like `add_component_x`) <br>
+3. Write your change <br>
+4. Write tests for your change (if applicable) <br>
+5. Run the tests, ensuring they all pass <br>
+6. Submit a Pull Request using Github <br>
 
 License and Authors
 -------------------
