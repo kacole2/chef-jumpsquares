@@ -136,7 +136,7 @@ Here is my current recipe run list that works: <br>
 7. `thin_nginx` <br>
 
 #### jumpsquares::thin_nginx
-Just include `jumpsquares::default` in your node's `run_list`. However go to 'thin_nginx' and make sure the attributes match what is shown above.
+Just include `jumpsquares::thin_and_nginx` in your node's `run_list`. However go to 'thin_nginx' and make sure the attributes match what is shown above.
 
 Contributing
 ------------
