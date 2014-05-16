@@ -154,4 +154,5 @@ License and Authors
 -------------------
 Authors: <a href="http://www.kendrickcoleman.com">Kendrick Coleman</a> | <a href="http://twitter.com/KendrickColeman">@KendrickColeman</a>
 
+Licensed under Apache 2.0
 
