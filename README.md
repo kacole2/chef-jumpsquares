@@ -1,6 +1,6 @@
 jumpsquares Cookbook
 ====================
-This cookbook will install a <a href="http://jumpsquares.net>JumpSquares</a> application on an ubuntu or debian machine. Only use this if you feel like you want to play around.
+This cookbook will install a <a href="http://jumpsquares.net">JumpSquares</a> application on an ubuntu or debian machine. Only use this if you feel like you want to play around.
 Otherwise, it's probably a safer idea to download the <a href="http://kendrickcoleman.com/index.php/Ruby-on-Rails-Projects/jumpsquares-a-new-kind-of-bookmark.html">appliance version</a> that's pre-built. This was an attempt to make my first chef cookbook.
 
 
@@ -152,6 +152,6 @@ e.g.
 
 License and Authors
 -------------------
-Authors: <a href="http://www.kendrickcoleman.com">Kendrick Coleman</a> | <a href="http://twitter.com/KendrickColeman>@KendrickColeman</a>
+Authors: <a href="http://www.kendrickcoleman.com">Kendrick Coleman</a> | <a href="http://twitter.com/KendrickColeman">@KendrickColeman</a>
 
 
