@@ -1,13 +1,11 @@
 jumpsquares CHANGELOG
 =====================
 
-This file is used to list changes made in each version of the jumpsquares cookbook.
-
 0.1.0
 -----
-- [your_name] - Initial release of jumpsquares
+- [Kendrick Coleman] - Initial release of jumpsquares
 
 - - -
-Check the [Markdown Syntax Guide](http://daringfireball.net/projects/markdown/syntax) for help with Markdown.
+A [Kendrick Coleman Project](http://www.kendrickcoleman.com)
 
-The [Github Flavored Markdown page](http://github.github.com/github-flavored-markdown/) describes the differences between markdown on github and standard markdown.
+Go use the SaaS based version at [JumpSquares.net](http://jumpsquares.net) and quit hosting your own apps..
