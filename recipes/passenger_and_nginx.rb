@@ -16,7 +16,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-#THIS RECIPE ISN'T WORKING. GETS 403 FORBIDDEN ERRORS WITH NGINX!!!
 include_recipe "apt"
 include_recipe "openssl"
 include_recipe "rvm::system"
