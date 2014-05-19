@@ -1,14 +1,15 @@
 jumpsquares Cookbook
 ====================
-This cookbook will install a <a href="http://jumpsquares.net">JumpSquares</a> application on an ubuntu or debian machine. Only use this if you feel like you want to play around.
-Otherwise, it's probably a safer idea to download the <a href="http://kendrickcoleman.com/index.php/Ruby-on-Rails-Projects/jumpsquares-a-new-kind-of-bookmark.html">appliance version</a> that's pre-built. This was an attempt to make my first chef cookbook.
+This cookbook will install the <a href="http://jumpsquares.net">JumpSquares</a> application on an ubuntu or debian machine. Only use this if you feel like you want to play around.
+Otherwise, it's probably a safer idea to download the <a href="http://kendrickcoleman.com/index.php/Ruby-on-Rails-Projects/jumpsquares-a-new-kind-of-bookmark.html">appliance version</a> that's pre-built. 
+This was an attempt to make my first chef cookbook with my own project. In addition, directly downloading from my source doesn't include the 250+ types of application types.
 
 
 Requirements
 ------------
-Tested with Ubuntu 12.06.03
+Tested with Ubuntu 12.04.03
 
-#### Other cookbooks used:
+#### Other cookbooks required:
 - `apt` - used to update packages to the latest
 - `openssl` - requirements for postgresql
 - `rvm` - installs RVM and rubies. Suggested ruby to install is ruby-2.1.2
@@ -120,6 +121,11 @@ I have no idea why, but these value are not overriding the cookbook. Go into the
   
 </table>
 
+#### jumpsquares::passenger_and_nginx
+No attributes to set. Just add it and watch it work. 
+
+
+
 Usage
 -----
 #### jumpsquares::default
@@ -138,9 +144,13 @@ Here is my current recipe run list that works: <br>
 #### jumpsquares::thin_nginx
 Just include `jumpsquares::thin_and_nginx` in your node's `run_list`. However, go to `thin_nginx` and make sure the attributes match what is shown above.
 
+#### jumpsquares::passenger_nginx
+Just include `jumpsquares::passenger_and_nginx` in your node's `run_list`. This will install all the necessary components. No attributes are necessary.
+
+
 Contributing
 ------------
-I'm not a developer. This is probably very ugly. Feel free to make this not look like garbage! :)
+I am not a software developer by nature. Just a hack. Please contribute to make this better.
 
 <br>
 1. Fork the repository on Github <br>
